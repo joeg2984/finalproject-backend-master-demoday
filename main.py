@@ -24,14 +24,6 @@ from prometheus_client import start_http_server
 
 # Import text for raw SQL expressions
 
-def fetch_trend_data(business_idea: str, region: str) -> dict:
-    """
-    Mock function to fetch trend data for a given business idea and region.
-    Replace this with actual implementation.
-    """
-    # Mock data
-    return {"popularity": 75}
-
 def extract_region(location: str) -> str:
     """
     Extracts the region code from a location string.
